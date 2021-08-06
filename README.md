@@ -1,3 +1,3 @@
 # DART
-## DART INSTALl
+## DART INSTALL
 choco install dart-sdk

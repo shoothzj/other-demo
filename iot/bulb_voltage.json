@@ -1,0 +1,22 @@
+{
+      "id": "low_voltage",      //事件唯一标识
+      "name": "LowVoltage",      //事件名称
+      "desc": "Alert for device voltage is low",  //事件的描述
+      "type": "alert",          //事件的类型，告警
+      "required": false,        //表示此属性是否必需包含，否
+      "params": [                //事件的参数
+        {
+          "id": "voltage",        //事件参数的唯一标识
+          "name": "Voltage",      //事件参数的名称
+          "desc": "Current voltage",  //参数的描述
+          "define": {                 //参数的数值定义
+            "type": "float",          //数值类型，浮点数
+            "unit": "V",              //数值的单位，伏
+            "step": "1",              //数值变化的步长，1
+            "min": "0.0",              //数值的最小值
+            "max": "24.0",             //数值的最大值
+            "start": "1"                //事件的起始值
+          }
+        }
+      ]
+    }

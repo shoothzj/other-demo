@@ -4,3 +4,9 @@
 # 编译器
 .idea/**
 .vscode/**
+
+# erlang
+erlang/**/*beam
+
+# personal
+personal**
